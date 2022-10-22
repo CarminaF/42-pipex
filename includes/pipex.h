@@ -6,7 +6,7 @@
 /*   By: cfamilar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 15:43:26 by cfamilar          #+#    #+#             */
-/*   Updated: 2022/10/20 21:20:15 by cfamilar         ###   ########.fr       */
+/*   Updated: 2022/10/22 12:18:51 by cfamilar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ typedef struct pipex
 	int		argc;
 	int		infile_fd;
 	int		outfile_fd;
-	int		*fd;
 	char	*cmd;
 	char	**argv;
 	char	**envp;
