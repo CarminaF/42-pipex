@@ -6,7 +6,7 @@
 /*   By: cfamilar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 18:06:15 by cfamilar          #+#    #+#             */
-/*   Updated: 2022/10/22 12:27:54 by cfamilar         ###   ########.fr       */
+/*   Updated: 2022/10/22 12:56:11 by cfamilar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ void	cmd2(t_pipex *pipex, int *fd)
 	pipex->cmd = pipex->argv[3];
 	execute_cmd(pipex);
 }
+
 void	pipe_function(t_pipex *pipex)
 {
 	pid_t	pid1;
